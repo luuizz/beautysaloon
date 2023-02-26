@@ -42,6 +42,11 @@ img {
 }
 
 /*====  BASE ============================ */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -429,12 +434,12 @@ nav.show div.icon-close {
   padding: 4rem 1rem;
 }
 
-.swiper-pagination-bullet {
+.bullet-bullet {
   width: 0.75rem;
   height: 0.75rem;
 }
 
-.swiper-pagination-bullet-active {
+.bullet-bullet-active {
   background: var(--base-color);
 }
 
